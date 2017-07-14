@@ -1,6 +1,7 @@
 //根路由应用组件
 import React from 'react'
-import NewsHeader from 'news_header'
+//'news_header' 修改为 './news_header' "./"不加会报错
+import NewsHeader from './news_header'
 export default class App extends React.Component{
     render(){
         return (
